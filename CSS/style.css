@@ -1,0 +1,71 @@
+/* Resrt Browser Boundaries */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+/* Utility Classes  */
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0px 20px;
+}
+
+/* Nav Bar */
+#navBar {
+    background-color: #333333;
+    color: white;
+    overflow: auto;
+}
+
+#navBar a {
+    color: white;
+}
+
+#navBar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navBar ul {
+    list-style: none;
+    float: right;
+}
+
+#navBar ul li {
+    float: left;
+}
+
+#navBar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navBar ul li a:hover,
+#navBar ul li a.current  {
+    background-color: #444444;
+    color: #f7c08a;
+}
